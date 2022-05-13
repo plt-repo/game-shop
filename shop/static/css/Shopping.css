@@ -1,0 +1,562 @@
+
+
+
+
+/*Вставка шрифта*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,400&display=swap');
+
+
+
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Логотип */
+.logo-block img {
+  padding-top: 49px;
+  margin-left: 200px;
+}
+
+
+/* Кнопка */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+
+
+
+  font-family: Montserrat;
+
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: none;
+  /* Prevent inheritence from `body` */
+  background-color: #D32A3D;
+  border: 0px;
+  border-radius: 0px;
+  height: 100px;
+  width: 381px;
+
+  font-size: 24px;
+  font-weight: 800;
+
+
+
+
+
+}
+
+/* Задний фон */
+
+html,
+body {
+  height: 100%;
+  background-color: #323233;
+
+
+
+
+}
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Задний фон */
+
+html,
+body {
+  height: 100%;
+  background-color: #323233;
+
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.playn{
+  height: 100px;
+  width: auto;
+  margin-top: -17px;
+}
+
+
+
+.conteinered-block-aple {
+  float: center;
+  padding-top: 0px;
+  margin-left: 0px;
+  height: 100px;
+  width: auto; 
+  
+  border-bottom: 10px solid #747677;
+}
+
+.conteinered-block-aple p {
+  font-family: Montserrat;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-left: 0px;
+  word-spacing: 140px;
+  padding-top: 50px;
+}
+
+.conteinered-block-git{
+  float: center;
+  padding-top: 0px;
+  margin-left: 0px;
+  height: 900px;
+  width: auto;
+  
+}
+
+.conteinered-block-long{
+ 
+  float: center;
+  height: 400px;
+  width: 1500px;
+  margin-left: 0px;
+  padding-top: 150px;
+
+}
+
+.conteinered-block-long img{
+  width: 300px;
+  height: 400px;
+  margin-left: 90px;
+  float: left;
+}
+
+.conteinered-block-long p{
+  font-family: Montserrat;
+  font-size: 30px;
+  text-align: left;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-left: 460px;
+  word-spacing: 140px;
+  padding-top: 170px;
+}
+
+.conteinered-block-long h1{
+  font-family: Montserrat;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: -65px;
+  margin-left: 670px;
+  word-spacing: 140px;
+  padding-top: 0px;
+
+}
+
+.conteinered-block-apsalyti h1{
+  font-family: Montserrat;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: -65px;
+  margin-left: 370px;
+  word-spacing: 140px;
+  padding-top: 0px;
+  padding-left: -70px;
+  float: left;
+  
+}
+
+.conteinered-block-longer{
+  
+  float: right;
+  height: 90px;
+  width: 150px;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-top: -90px;
+  margin-right: 70px;
+}
+
+.conteinered-block-longer button {
+  background-image: -webkit-linear-gradient(top, #242323 0, #242323 100%);
+  border-radius: 0px;
+  color: #FFFFFF;
+  text-shadow: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  border-color: #242323;
+  height: 40px;
+  width: 70px;
+  margin-right: 0px;
+  margin-top: 0px;
+
+  float: right;
+  
+}
+
+.conteinered-block-longer button:hover{
+ transform: scale(1.2);
+ transition: 1s ease;
+}
+
+
+.conteinered-block-longer input {
+  background-color: #323233;
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  width: 70px;
+  margin-top: 15px;
+  float: left;
+  border-color: #323233;
+}
+
+/* Конечная цена */
+
+.d4{
+  float: left;
+  margin-right: 100px;
+  margin-left: 0px;
+  margin-top: 30px;
+  height: 150px;
+  width: 1700px;
+  
+}
+
+.d4 form {
+  width: 500px;
+  height: 90px;
+  margin-top: 30px;
+  margin-left: 20px;
+  
+
+}
+
+.d4 input,
+.d4 button {
+
+  outline: none;
+  background: transparent;
+  
+  
+
+
+
+}
+
+.d4 input {
+  width: 200px;
+  height: 52px;
+  padding-left: 15px;
+  border: 3px solid #242323;
+  background: #242323;
+  
+}
+
+.d4 input::-webkit-input-placeholder {
+  color: #fffefe;
+}
+
+.d4 button {
+  border: none;
+  height: 60px;
+  width: 220px;
+  color: #FFFFFF;
+  text-shadow: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-top: 0px;
+  margin-left: 0px;
+
+  cursor: pointer;
+  
+  float: left;
+
+
+}
+
+.d4 button:hover{
+  background: #242323;
+  color: #ffff;
+  border-color: #242323;
+  transform: scale(1.1);
+  transition: 1s ease;
+ 
+}
+
+
+
+.d4 button:before {
+  content: "PROMOCODE";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #FFFEFE;
+  
+}
+
+.d4 input:focus {
+  border-color: #311c24;
+  color: #FFFEFE;
+}
+
+
+
+
+.d4 p{
+  font-family: Montserrat;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: -90px;
+  margin-left: 0px;
+  
+  padding-top: 0px;
+  padding-left: 0px;
+  float: right;
+}
+
+
+
+
+.mb-footer{
+  margin-top: 770px;
+  height: 150px;
+  border-top: 10px solid #747677;
+  float: bottom;
+}
+
+.conteinered-block-aple-one{
+   float: right;
+   padding-top: 0px;
+   margin-left: 0px;
+   margin-top: 30px;
+   height: 100px;
+   width: 430px;
+   margin-right: 190px;
+
+  
+}
+
+
+
+.conteinered-block-aple-one li{
+   border-radius: 0px;
+   color: #FFFFFF;
+   text-shadow: none;
+   list-style-type: none;
+   font-family: Montserrat;
+   font-size: 20px;
+   font-weight: 700;
+   height: 50px;
+   width: 200px;
+   margin-right: 0px;
+   margin-top: 0px;
+   padding-top: 20px;
+   float: left;
+}
+
+.conteinered-block-aple-one li:hover{
+  background-color: #242323;
+  color: #ffff;
+  border-color: #242323;
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.conteinered-block-aple-one a{
+  text-decoration: none;
+}
+
+
+.conteinered-block-aple-one button{
+  background-image: -webkit-linear-gradient(top, #D32A3D 0, #D32A3D 100%);
+  border-radius: 0px;
+  color: #FFFFFF;
+  text-shadow: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  border-color: #D32A3D;
+  height: 70px;
+  width: 200px;
+  margin-right: 0px;
+  margin-top: 0px;
+  float: right;
+}
+
+.conteinered-block-aple-one button:hover {
+  background-image: -webkit-linear-gradient(top, #D32A3D 0, #D32A3D 100%);
+  background-color: #D32A3D;
+  color: #ffff;
+  border-color: #D32A3D;
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 1900px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+
+
+
+
+

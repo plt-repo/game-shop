@@ -1,0 +1,105 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <link rel="icon" href="{% static 'img/icon.svg' %}" type="image/svg+xml">
+
+    <title>Shopping</title>
+
+    <body class="text-center">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static '../../dist/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/Shopping.css' %}" rel="stylesheet">
+  </head>
+
+
+
+  <div class="playn">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-header">
+        <div class="container conteinered-block-aple">
+
+          <p>NAME PLATFORM PRICE QUANTITY</p>
+
+        </div>
+      </header>
+
+      <div class="conteinered-block-git">
+           <div class="conteinered-block-long">
+
+              <img src="{% static 'img/image 6.jpg' %}">
+              <p>THIEF</p>
+
+              <div class="conteinered-block-apsalyti">
+                <h1>PC</h1>
+              </div>
+
+
+              <h1>59.94$</h1>
+
+               <div class="conteinered-block-longer">
+
+
+                <input type="number" id="steve" min="0" max="20" value=1>
+
+                 <button onclick="document.querySelector('#steve').value=parseInt(document.querySelector('#steve').value)>19?parseInt(document.querySelector('#steve').value):parseInt(document.querySelector('#steve').value)+1">+</button>
+
+                 <button onclick="document.querySelector('#steve').value=parseInt(document.querySelector('#steve').value)<1?parseInt(document.querySelector('#steve').value):parseInt(document.querySelector('#steve').value)-1"">-</button>
+
+               </div>
+           </div>
+
+
+
+          <div class="d4">
+            <form>
+              <button type="submit"></button>
+              <input type="text" placeholder="XXX-XXX-XXX">
+
+            </form>
+
+            <p>TOTAL 59.94$</p>
+          </div>
+
+
+          <footer class="masthead mb-footer">
+            <div class="container conteinered-block-aple-one">
+
+             <li><a href="{% url 'index' %}">CANCEL</a></li>
+
+             <button>PAY NOW</button>
+
+            </div>
+         </footer>
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+  </div>
+  </body>
+</html>
